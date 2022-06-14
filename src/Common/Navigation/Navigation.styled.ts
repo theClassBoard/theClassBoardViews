@@ -18,4 +18,8 @@ export const Nav = styled.nav`
     & ul{
         width: 100%;
     }
+
+    & a {
+        color: inherit;
+    }
 `
