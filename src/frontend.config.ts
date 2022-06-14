@@ -1,9 +1,17 @@
 
 //Color palettes
-export const coloPaletteDark = {
-    1: "#1d1d29",
-    2: "#111118",
-    3: "#0c0c11",
-    4: "#0a0a0d",
-    5: "#050506"
-}
+export const coloPaletteDark:string[] = [
+    "#1d1d29",
+    "#111118",
+    "#0f0f14",
+    "#0a0a0d",
+    "#050506"
+]
+
+export const darkModeTrue:boolean = true 
+
+export const textColor:string = `${
+    darkModeTrue 
+        ? "white"
+        : "black"
+}`
