@@ -2,8 +2,14 @@ import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom/client';
 import LoadingScreen from './Common/LoadingScreen/LoadingScreen';
 
-//Lazy load
-const AppLazy = React.lazy(() => import('./App'))
+//Lazy load w/ artificial time added
+const AppLazy = React.lazy(() => {
+  return Promise.all([
+    import("./App"),
+    new Promise(resolve => setTimeout(resolve, 1000))
+  ])
+  .then(([moduleExports]) => moduleExports);
+});
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
