@@ -1,13 +1,14 @@
+import { FC } from "react"
 import { Link } from "react-router-dom"
 import * as S from './Navigation.styled'
 
-const Navigation = () => {
+const Navigation:FC = () => {
   return (
     <S.SideMenuContainer>
-        <nav>
+        <S.Nav>
             <Link to="/" >Home</Link>
             <Link to="asdfadf">404</Link>
-        </nav>
+        </S.Nav>
     </S.SideMenuContainer>
   )
 }

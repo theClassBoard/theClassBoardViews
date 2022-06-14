@@ -8,5 +8,14 @@ export const SideMenuContainer = styled.header`
     position: sticky;
     top: 0; 
     left: 0;
-    color: inherit
+    color: inherit;
+`
+
+export const Nav = styled.nav`
+    width: 100%;
+    height: auto;
+
+    & ul{
+        width: 100%;
+    }
 `

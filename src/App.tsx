@@ -1,10 +1,11 @@
+import { FC } from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Auth from "./Auth/Auth"
 import Layout from "./Layout/Layout"
 import Home from "./Pages/Home/Home"
 
 
-const App = () => {
+const App:FC = () => {
 	return (
 		<BrowserRouter>
 			<Routes>				

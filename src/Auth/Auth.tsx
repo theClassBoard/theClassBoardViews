@@ -1,7 +1,8 @@
+import { FC } from "react"
 import { Outlet } from "react-router-dom"
 
 
-const Auth = () => {
+const Auth:FC = () => {
   return (
     <>
     <Outlet/>
