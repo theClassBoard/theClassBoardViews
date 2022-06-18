@@ -6,7 +6,7 @@ import LoadingScreen from './Common/LoadingScreen/LoadingScreen';
 const AppLazy = React.lazy(() => {
   return Promise.all([
     import("./App"),
-    new Promise(resolve => setTimeout(resolve, 1000))
+    new Promise(resolve => setTimeout(resolve, 1500))
   ])
   .then(([moduleExports]) => moduleExports);
 });
