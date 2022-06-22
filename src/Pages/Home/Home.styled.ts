@@ -12,13 +12,15 @@ export const HomeContainer = styled.section`
 
     & .inner{
         height: fit-content;
-        height: 10000px;
         width: 95%;
         margin-top: clamp(  
             calc(${`${SideMenuConstants.heightClampValues[0]} * ${InnerMarginValue}`}),
             calc(${`${SideMenuConstants.heightClampValues[1]} * ${InnerMarginValue}`}),
             calc(${`${SideMenuConstants.heightClampValues[2]} * ${InnerMarginValue}`})
         );
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 `
 /*
@@ -30,5 +32,5 @@ export const HomeContainer = styled.section`
 export const CardContainer = styled.div`
     display: flex;
     height: auto;
-
+    width: 100%;
 `

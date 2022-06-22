@@ -23,7 +23,7 @@ export const Nav = styled.nav`
     height: ${`${SideMenuConstants.navHeightPercentage}%`};
     border-radius: 35px;
     background-color: white;
-    box-shadow:5px 20px 30px 5px #c6c6c6;
+    box-shadow:5px 20px 30px -5px #c6c6c6;
 
     & ul{
         width: 100%;
