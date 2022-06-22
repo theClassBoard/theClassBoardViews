@@ -3,8 +3,7 @@ import { coloPaletteDark } from '../../frontend.config'
 
 export const SideMenuContainer = styled.header`
     width: 20%;
-    background-color:#F5EEFF;
-    height: clamp(500px, 100%, 1080px);
+    height: clamp(500px, 100vh, 1080px);
     position: sticky;
     top: 0; 
     left: 0;

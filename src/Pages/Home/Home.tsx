@@ -3,7 +3,9 @@ import { coloPaletteDark } from "../../frontend.config"
 
 const Home:FC = () => {
   return (
-    <div style={{height: 'min(100vh, 1080px)', backgroundColor:`#F5EEFF`, width: '85%'}}>Home</div>
+    <div style={{height: 'fit-content', width: '85%'}}>
+       <div style={{height: '2000px', width: '55%', backgroundColor: 'green'}}></div>
+    </div>
   )
 }
 
