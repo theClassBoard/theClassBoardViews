@@ -8,7 +8,9 @@ const Layout:FC = () => {
   return (
     <S.LayoutContainer>
         <Navigation/>
-        <Outlet/>
+        <S.OutletContainer>
+          <Outlet/>
+        </S.OutletContainer>
     </S.LayoutContainer>
   )
 }

@@ -53,6 +53,10 @@ export const CardContainer = styled.div`
     justify-items: center;
     align-content: center;
     row-gap: 30px;
+
+    @media all and (max-width: 1024px){
+        grid-template-columns: 1fr;
+    }
 `
 
 export const Card = styled.div`

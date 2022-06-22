@@ -16,6 +16,10 @@ export const SideMenuContainer = styled.header`
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    @media all and (max-width: 1024px){
+        width: auto;
+    }
 `
 
 export const Nav = styled.nav`
@@ -31,5 +35,11 @@ export const Nav = styled.nav`
 
     & a {
         color: inherit;
+    }
+
+    @media all and (max-width: 1024px){
+        height: min(600px, 100vh);
+        width: 80px;
+        margin-left: 20px;
     }
 `
