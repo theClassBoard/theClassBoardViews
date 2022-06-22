@@ -2,18 +2,24 @@ import styled from 'styled-components'
 import { coloPaletteDark } from '../../frontend.config'
 
 export const SideMenuContainer = styled.header`
-    width: 15%;
-    background-color:${coloPaletteDark[2]};
-    height: 100vh;
+    width: 20%;
+    background-color:#F5EEFF;
+    height: clamp(500px, 100%, 1080px);
     position: sticky;
     top: 0; 
     left: 0;
-    color: inherit;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 `
 
 export const Nav = styled.nav`
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:0px 0px 100px -30px #bababa;
 
     & ul{
         width: 100%;

@@ -4,10 +4,10 @@ import { coloPaletteDark } from '../../frontend.config'
 export const LoadingScreenContainer = styled.section`
     width: 100%;
     height: 100%;
-    background-color: ${coloPaletteDark[1]};
+    background-color: white;
 
     & img{
-        height: 200px;
+        height: 100px;
         width: auto;
         border-radius: 10px;
     }

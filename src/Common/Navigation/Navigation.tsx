@@ -6,8 +6,7 @@ const Navigation:FC = () => {
   return (
     <S.SideMenuContainer>
         <S.Nav>
-            <Link to="/" >Home</Link>
-            <Link to="asdfadf">404</Link>
+
         </S.Nav>
     </S.SideMenuContainer>
   )

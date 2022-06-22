@@ -1,10 +1,10 @@
-import logo from '../../Assets/Logo/logo.png'
+import Logo from '../../Assets/NavIcons/NewLogo.png'
 import * as S from './LoadingScreen.styled'
 
 const LoadingScreen = () => {
   return (
     <S.LoadingScreenContainer className='center'>
-      <img src={logo} alt="" />
+      <img src={Logo} alt="" />
     </S.LoadingScreenContainer>
   )
 }
