@@ -3,7 +3,7 @@ import { coloPaletteDark } from '../../frontend.config'
 
 export const LoadingScreenContainer = styled.section`
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: white;
 
     & img{

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { coloPaletteDark } from '../../frontend.config'
 
 export const SideMenuConstants = {
-    heightClampValues : ['500px', '100vh', '1080px'],
+    heightClampValues : ['500px', '100vh', '1366px'],
     navHeightPercentage: 90
 }
 
@@ -21,9 +21,9 @@ export const SideMenuContainer = styled.header`
 export const Nav = styled.nav`
     width: 90%;
     height: ${`${SideMenuConstants.navHeightPercentage}%`};
-    border-radius: 20px;
+    border-radius: 35px;
     background-color: white;
-    box-shadow:0px 0px 100px -30px #bababa;
+    box-shadow:5px 20px 30px 5px #c6c6c6;
 
     & ul{
         width: 100%;
