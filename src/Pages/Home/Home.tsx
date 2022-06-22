@@ -5,8 +5,14 @@ import UpNext from "./UpNext/UpNext"
 const Home:FC = () => {
   return (
     <S.HomeContainer>
+      <S.HeaderContainer>
+
+      </S.HeaderContainer>
       <div className="inner">
-        <S.CardContainer>
+        <S.CardContainer className="bottomGroup">
+          <UpNext/>
+          <UpNext/>
+          <UpNext/>
           <UpNext/>
         </S.CardContainer>
       </div>

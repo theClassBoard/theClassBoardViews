@@ -7,20 +7,22 @@ export const HomeContainer = styled.section`
     height: fit-content;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items:flex-start;
-
-    & .inner{
-        height: fit-content;
-        width: 95%;
-        margin-top: clamp(  
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    margin-top: clamp(  
             calc(${`${SideMenuConstants.heightClampValues[0]} * ${InnerMarginValue}`}),
             calc(${`${SideMenuConstants.heightClampValues[1]} * ${InnerMarginValue}`}),
             calc(${`${SideMenuConstants.heightClampValues[2]} * ${InnerMarginValue}`})
-        );
+    );
+    margin-bottom: 50px;
+    & .inner{
+        height: fit-content;
+        width: 95%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        gap: 30px;
     }
 `
 /*
@@ -29,8 +31,19 @@ export const HomeContainer = styled.section`
     When the screen size is larger the scroll bar, if there was a need for one, would not be in the browser window. 
 */
 
-export const CardContainer = styled.div`
+export const HeaderContainer = styled.div`
     display: flex;
-    height: auto;
+    width: 95%;
+    height:3em;
+`
+
+export const CardContainer = styled.div`
     width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    justify-items: center;
+    align-content: center;
+    row-gap: 30px;
 `
