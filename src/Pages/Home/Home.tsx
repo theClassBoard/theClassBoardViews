@@ -7,7 +7,6 @@ const Home:FC = () => {
   return (
     <S.HomeContainer>
       <S.HeaderContainer>
-        Netlify test
         <img src={pfp} alt="" />
       </S.HeaderContainer>
       <div className="inner">
