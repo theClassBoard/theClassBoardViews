@@ -15,7 +15,7 @@ const App:FC = () => {
 						</Route>
 
 						{/* 404 Page */}
-						<Route path="*" element={<>404</>}/>
+						<Route path="*" element={<>404 mf</>}/>
 				</Route>
 			</Routes>
 		</BrowserRouter>
