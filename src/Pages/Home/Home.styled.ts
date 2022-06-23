@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { SideMenuConstants } from '../../Common/Navigation/Navigation.styled'
+import { colorPallete } from '../../frontend.config'
 
 const InnerMarginValue = ((100 - SideMenuConstants.navHeightPercentage)/2)*.01
 
@@ -60,9 +61,9 @@ export const CardContainer = styled.div`
 `
 
 export const Card = styled.div`
-    background-color: white;
+    background-color: ${colorPallete.secondary};
     height: 500px;
     width: 95%;
-    box-shadow:5px 20px 30px -5px #c6c6c6;
+    box-shadow:5px 20px 30px -5px ${colorPallete.boxShadow};
     border-radius: 35px;
 `

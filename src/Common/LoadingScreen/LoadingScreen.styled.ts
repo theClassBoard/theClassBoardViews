@@ -1,13 +1,13 @@
 import styled from 'styled-components'
-import { coloPaletteDark } from '../../frontend.config'
+import { colorPallete } from '../../frontend.config'
 
 export const LoadingScreenContainer = styled.section`
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: ${colorPallete.secondary};
 
     & img{
-        height: 100px;
+        height: 80px;
         width: auto;
         border-radius: 10px;
     }
