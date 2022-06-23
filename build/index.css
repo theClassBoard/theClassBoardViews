@@ -1,0 +1,29 @@
+*{
+    margin:0; padding: 0;
+    font-size: 16px; font-weight: normal;
+    text-decoration: none; list-style: none;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#root{
+    width: 100%;
+    min-height: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F5EEFF;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
