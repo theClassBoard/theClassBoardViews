@@ -9,8 +9,28 @@ export const HeaderContainer = styled.div`
     width: 95%;
     height:3em;
     margin-bottom: 30px;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: center;
+
+    & .title {
+        margin-left: 1%;
+        height: 100%;
+        background-color: ${colorPallete.secondary};
+        border-radius: 35px;
+        box-shadow:5px 10px 30px -5px ${colorPallete.boxShadow};
+    }
+
+    & .title h2{
+        font-size: 1.5em;
+        font-weight: 700;
+        width: fit-content;
+        padding: 0 20px;
+        text-align: center;
+        color: black;
+    }
+
     & img{
+        margin-left: auto;
         height: 100%;
         border-radius: 9999px;
     }

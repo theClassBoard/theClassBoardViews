@@ -7,6 +7,9 @@ const Home:FC = () => {
   return (
     <S.HomeContainer>
       <S.HeaderContainer>
+        <div className="title center">
+          <h2>Home</h2>
+        </div>
         <img src={pfp} alt="" />
       </S.HeaderContainer>
       <div className="inner">
